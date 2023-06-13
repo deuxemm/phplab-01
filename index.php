@@ -1,5 +1,23 @@
-<?php 
+<?php
+$title = 'Index';
+include 'includes/header.php';
+?>
 
-  echo 'Hello World! testing..made a change'; 
+<h2><?php echo $title ?></h2>
 
+<?php
+// declare variable
+$name = 'Marc McRae';
+$age = 61;
+//echo variable
+echo $name;
+echo '<h2>My Name is: ' . $name . '</h2>';
+echo '<h2>My Age is: ' . $age . '</h2>';
+
+echo "<h2>My Name is: $name and my Age is: $age</h2>";
+
+?>
+
+<?php
+require 'includes/footer.php'
 ?>
